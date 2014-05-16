@@ -1,5 +1,3 @@
-alias gs="git status"
-alias gf="git fetch"
 alias cuc="cucumber"
 alias cucp="cucumber --format=pretty"
 alias ss="rspec --color"
@@ -8,15 +6,20 @@ alias rc="rails c"
 alias rs="rails s"
 alias be="bundle exec"
 
-
 # projects
 alias challenge="cd ~/code/dailychallenge"
 alias dashiell="cd ~/code/dashiell"
 alias dashboard="cd ~/code/deployment-dashboard"
 alias skylight="cd ~/code/skylight"
 
-# github shortcuts
+# git shortcuts
 alias master="git checkout master && g pull"
+alias gs="git status"
+alias gf="git fetch"
 
 # setup
 alias prepdc="bundle install && rake update:env && rake fixtures:challenge"
+
+# Ruby Motion shortcuts
+alias sd="API_ENV=development rake device"
+alias td="API_ENV=staging rake device"
