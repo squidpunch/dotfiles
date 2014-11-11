@@ -1,0 +1,9 @@
+windows:
+  - name: hello-server
+    layout: tiled
+    root: ~/code/bamboo-server
+    panes:
+      - vim
+      - foreman start
+      - git status
+      - bundle exec guard

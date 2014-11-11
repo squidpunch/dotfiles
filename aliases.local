@@ -5,6 +5,7 @@ alias s="bundle exec rspec --color"
 alias rc="rails c"
 alias rs="rails s"
 alias be="bundle exec"
+alias bake="bundle exec rake"
 
 # projects
 alias challenge="cd ~/code/dailychallenge"
@@ -23,3 +24,7 @@ alias prepdc="bundle install && rake update:env && rake fixtures:challenge"
 # Ruby Motion shortcuts
 alias sd="API_ENV=development rake device"
 alias td="API_ENV=staging rake device"
+alias hap="API_ENV=production rake archive:distribution"
+
+alias release="rake archive:distribution && motion upload dave@larrabeefamily.com"
+

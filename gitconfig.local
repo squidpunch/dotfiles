@@ -1,0 +1,36 @@
+[user]
+  name = David Larrabee
+  email = david.larrabee@meyouhealth.com
+[github]
+  user = dlarrabee
+[color]
+        diff = auto
+        status = auto
+        branch = auto
+        interactive = auto
+        ui = true
+        pager = true
+
+[color "branch"]
+        current = yellow reverse
+        local = yellow
+        remote = green
+
+
+[color "status"]
+        added = yellow
+        changed = green
+        untracked = cyan
+[branch]
+  autosetuprebase = always
+[rerere]
+  enabled = true
+[format]
+  pretty = %Cblue%h%Creset %Cgreen[%ar]%Creset (%an) %s
+[diff]
+  renames = true
+[core]
+  editor = vim
+[alias]
+  rebase-origin = !git fetch origin -p && git rebase origin/master -i
+  rebase-upstream = !git fetch upstream -p && git rebase upstream/master -i

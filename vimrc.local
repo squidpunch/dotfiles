@@ -54,11 +54,6 @@ map <Leader>a :call RunAllSpecs()<CR>
 autocmd Filetype gitcommit setlocal spell textwidth=72
 au BufRead,BufNewFile *.hamlc set ft=haml
 
-" Powerline
-python from powerline.vim import setup as powerline_setup
-python powerline_setup()
-python del powerline_setup
-
 if ! has('gui_running')
   set ttimeoutlen=10
   augroup FastEscape
