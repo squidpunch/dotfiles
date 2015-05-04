@@ -1,14 +1,14 @@
 filetype off
 
-Plugin 'airblade/vim-gitgutter'
-Plugin 'altercation/vim-colors-solarized'
-Plugin 'scrooloose/nerdtree'
-Plugin 'godlygeek/tabular'
-Plugin 'tpope/vim-abolish'
-Plugin 'rking/ag.vim'
-Plugin 'mattn/gist-vim'
-Plugin 'mattn/webapi-vim'
-Plugin 'rcyrus/snipmate-snippets-rubymotion'
-Plugin 'elixir-lang/vim-elixir'
+Plug 'airblade/vim-gitgutter'
+Plug 'altercation/vim-colors-solarized'
+Plug 'scrooloose/nerdtree'
+Plug 'godlygeek/tabular'
+Plug 'tpope/vim-abolish'
+Plug 'rking/ag.vim'
+Plug 'mattn/gist-vim'
+Plug 'mattn/webapi-vim'
+Plug 'rcyrus/snipmate-snippets-rubymotion'
+Plug 'elixir-lang/vim-elixir'
 
 filetype on
