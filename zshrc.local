@@ -17,5 +17,12 @@ export RUBY_HEAP_FREE_MIN=500000
 
 export PATH=/usr/local/mysql/bin:$PATH
 export PATH="/usr/local/bin:$PATH"
+export RUBYMOTION_ANDROID_SDK=/Users/davidlarrabee/.rubymotion-android/sdk
+export RUBYMOTION_ANDROID_NDK=/Users/davidlarrabee/.rubymotion-android/ndk
+export ANDROID_HOME=/Users/davidlarrabee/.rubymotion-android/sdk
+export ANDROID_SDK=$ANDROID_HOME
+PATH=$PATH:$ANDROID_HOME/build-tools
+PATH=$PATH:$ANDROID_HOME/platform-tools
+PATH=$PATH:$ANDROID_HOME/tools
 
 unsetopt correct_all
