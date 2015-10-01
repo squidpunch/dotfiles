@@ -25,6 +25,3 @@ alias prepdc="bundle install && rake update:env && rake fixtures:challenge"
 alias sd="API_ENV=development rake device"
 alias td="API_ENV=staging rake device"
 alias hap="API_ENV=production rake archive:distribution"
-
-alias release="rake archive:distribution && motion upload dave@larrabeefamily.com"
-
