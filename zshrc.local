@@ -26,3 +26,4 @@ PATH=$PATH:$ANDROID_HOME/platform-tools
 PATH=$PATH:$ANDROID_HOME/tools
 
 unsetopt correct_all
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
