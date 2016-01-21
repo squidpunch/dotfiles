@@ -1,3 +1,10 @@
-gem: --no-document
-gem: --no-ri --no-rdoc
-gem: --user-install -n/usr/local/bin
+---
+:backtrace: false
+:bulk_threshold: 1000
+:sources:
+- https://rubygems.org/
+- https://5wrriFTDh6Hqu1eDt5xf@gem.fury.io/meyouhealth/
+:update_sources: true
+:verbose: true
+gem: "--no-ri --no-rdoc"
+"/* gem": "--user-install -n/usr/local/bin */"
