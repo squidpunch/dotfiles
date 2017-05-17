@@ -99,9 +99,6 @@ _load_settings "$HOME/.zsh/configs"
 # Local config
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
 
-# added by travis gem
-[ -f /Users/davidlarrabee/.travis/travis.sh ] && source /Users/davidlarrabee/.travis/travis.sh
-
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
