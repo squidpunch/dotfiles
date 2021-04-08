@@ -1,5 +1,3 @@
-alias cuc="cucumber"
-alias cucp="cucumber --format=pretty"
 alias ss="rspec --color"
 alias s="bundle exec rspec --color"
 alias rc="rails c"
@@ -7,21 +5,10 @@ alias rs="rails s"
 alias be="bundle exec"
 alias bake="bundle exec rake"
 
-# projects
-alias challenge="cd ~/code/dailychallenge"
-alias dashiell="cd ~/code/dashiell"
-alias dashboard="cd ~/code/deployment-dashboard"
-alias skylight="cd ~/code/skylight"
-
 # git shortcuts
-alias master="git checkout master && g pull"
 alias gs="git status"
 alias gf="git fetch"
 
-# setup
-alias prepdc="bundle install && rake update:env && rake fixtures:challenge"
-
-# Ruby Motion shortcuts
-alias sd="API_ENV=development rake device"
-alias td="API_ENV=staging rake device"
-alias hap="API_ENV=production rake archive:distribution"
+# EZ
+alias rr='bundle exec rubocop --force-exclusion $(git diff --diff-filter=d --name-only origin/master)'
+alias ezk='docker run --rm -v "$HOME/.aws:/root/.aws:ro" -v "$HOME/.kube:/root/.kube" -v "$(pwd)/service.yml:/usr/src/gem/service.yml:ro" -it ezcater-production.jfrog.io/ezk-gem ezk'

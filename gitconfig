@@ -37,3 +37,6 @@
 	clean = git lfs clean %f
 	smudge = git lfs smudge %f
 	required = true
+[user]
+	name = David Larrabee
+	email = dave@larrabeefamily.com
